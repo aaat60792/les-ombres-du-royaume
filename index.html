@@ -9,8 +9,71 @@
 
 <body>
 
-<h1>Les Ombres du Royaume</h1>
-<p>Wiki en cours de création...</p>
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+
+  <div class="logo">
+    ☠ LES OMBRES DU ROYAUME
+  </div>
+
+  <input id="search" placeholder="Rechercher un rôle...">
+
+  <nav>
+    <button onclick="show('home')">🏠 Accueil</button>
+    <button onclick="show('ombres')">🌑 Ombres</button>
+    <button onclick="show('royaume')">⚔ Royaume</button>
+    <button onclick="show('neutres')">⚖ Neutres</button>
+    <button onclick="show('mj')">📜 MJ</button>
+  </nav>
+
+</aside>
+
+<!-- CONTENT -->
+<main class="content">
+
+<section id="home" class="page active">
+  <h1>LES OMBRES DU ROYAUME</h1>
+
+  <div class="card">
+    <p>Deux forces s’affrontent dans les ténèbres…</p>
+  </div>
+</section>
+
+<section id="ombres" class="page">
+  <h1>🌑 Camp des Ombres</h1>
+  <div class="card">Roi des Ombres</div>
+  <div class="card">Reine des Ombres</div>
+  <div class="card">Saboteur</div>
+  <div class="card">Métamorphe</div>
+  <div class="card">Corrupteur</div>
+</section>
+
+<section id="royaume" class="page">
+  <h1>⚔ Camp du Royaume</h1>
+  <div class="card">Duc</div>
+  <div class="card">Comtesse</div>
+  <div class="card">Garde</div>
+  <div class="card">Voyant</div>
+</section>
+
+<section id="neutres" class="page">
+  <h1>⚖ Rôles Neutres</h1>
+  <div class="card">Courtiseur</div>
+  <div class="card">Fanatique Fou</div>
+  <div class="card">Suiveur</div>
+</section>
+
+<section id="mj" class="page">
+  <h1>📜 Guide MJ</h1>
+  <div class="card">Ordre des actions</div>
+  <div class="card">Nuit 0</div>
+</section>
+
+</main>
+
+</div>
 
 <script src="script.js"></script>
 </body>
