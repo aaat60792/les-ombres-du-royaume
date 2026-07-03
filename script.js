@@ -104,6 +104,147 @@ suiveur: `
 sain: `
 <h2>🕊 Le Sain</h2>
 <p>Change de camp.</p>
+`,
+
+  /* ===== ROYAUME ===== */
+
+imposteur: `
+<h2>🎭 Imposteur</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Son effet est permanent durant toute la partie.
+</p>
+`,
+    
+executeur: `
+<h2>⚔️ Exécuteur</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Possède une exécution unique qu'il peut utiliser pendant la nuit.
+</p>
+`,
+    
+archiviste: `
+<h2>📚 Archiviste</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Nuit 0 :</b><br>
+Reçoit les noms de deux joueurs : un du Royaume et un des Ombres.
+</p>
+`,
+    
+croquemort: `
+<h2>⚰️ Croque-Mort</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Son effet ne se déclenche qu'à sa mort.
+</p>
+`,
+    
+cuistot: `
+<h2>🍲 Cuistot</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Nuit 0 :</b><br>
+Apprend le nombre de paires d'Ombres voisines.
+</p>
+`,
+    
+dresseur: `
+<h2>🦊 Dresseur de Renards</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Connaît le nombre d'Ombres autour de lui.
+</p>
+`,
+    
+enqueteur: `
+<h2>🔎 Enquêteur</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Nuit 0 :</b><br>
+Reçoit un rôle des Ombres ainsi que les deux joueurs parmi lesquels il se cache.
+</p>
+`,
+    
+faucheuse: `
+<h2>☠️ Faucheuse</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Connaît le rôle du dernier joueur éliminé.
+</p>
+`,
+    
+lavandiere: `
+<h2>🧺 Lavandière</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Nuit 0 :</b><br>
+Reçoit un rôle du Royaume ainsi que les deux joueurs parmi lesquels il se cache.
+</p>
+`,
+    
+vierge: `
+<h2>🕊️ Vierge</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Son effet se déclenche lors d'une proposition de vote.
+</p>
+`,
+    
+ivrogne: `
+<h2>🍺 Ivrogne</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Nuit 0 :</b><br>
+Reçoit un faux rôle qu'il croit posséder.
+</p>
+`,
+    
+docteur: `
+<h2>🩺 Docteur</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Connaît le nombre de fausses informations distribuées et peut vérifier un joueur.
+</p>
+`,
+    
+agent: `
+<h2>🛡️ Agent de Sécurité</h2>
+<p><b>Camp :</b> Royaume</p>
+<p><b>Pouvoir :</b><br>
+Connaît l'heure approximative du passage du MJ chez un joueur.
+</p>
+`,
+
+/* ===== OMBRES ===== */
+
+informateur: `
+<h2>📜 Informateur</h2>
+<p><b>Camp :</b> Ombres</p>
+<p><b>Nuit 0 :</b><br>
+Connaît les trois rôles absents de la partie.
+</p>
+`,
+
+infoombre: `
+<h2>🌑 Informateur des Ombres</h2>
+<p><b>Camp :</b> Ombres</p>
+<p><b>Nuit 0 :</b><br>
+Connaît tous les membres des Ombres ainsi que leurs rôles.
+</p>
+`,
+
+fanatiqueombre: `
+<h2>🔥 Fanatique de l'Ombre</h2>
+<p><b>Camp :</b> Ombres</p>
+<p><b>Pouvoir :</b><br>
+Son effet ne s'active qu'à la mort du Roi des Ombres.
+</p>
+`,
+
+/* ===== AUTRE ===== */
+
+mort: `
+<h2>💀 Mort</h2>
+<p><b>Statut :</b><br>
+Ce joueur est éliminé de la partie.
+</p>
 `
 
 };
