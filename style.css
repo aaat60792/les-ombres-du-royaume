@@ -45,7 +45,6 @@ box-shadow:0 0 10px #ff000055;
 .sidebar button:active {
 transform:scale(0.98);
 }
-
 /* content */
 .content {
 flex:1;
