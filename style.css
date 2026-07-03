@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: radial-gradient(circle at top, #1a0000, #000);
+  color: #e5e5e5;
+}
+
+h1 {
+  color: #ff2a2a;
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
