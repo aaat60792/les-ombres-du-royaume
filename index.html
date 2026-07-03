@@ -41,24 +41,24 @@
   </div>
 </section>
 
-<section id="ombres" class="page active">
+<section id="ombres" class="page">
 <h1>🌑 Camp des Ombres</h1>
 
-<div class="card" onclick="openRole('Roi')">
+<div class="card" onclick="openRole('roi')">
   <h3>Roi des Ombres</h3>
   <p><b>Rôle :</b> Élimine un joueur chaque nuit</p>
   <p><b>Objectif :</b> Survivre jusqu'à la fin de la partie</p>
   <p><b>Défaite :</b> Si éliminé en Conseil → victoire du Royaume immédiate</p>
 </div>
 
-<div class="card" onclick="openRole('Reine')">
+<div class="card" onclick="openRole('reine')">
   <h3>Reine des Ombres</h3>
   <p><b>Rôle :</b> Connaît le Roi des Ombres</p>
   <p><b>Pouvoir :</b> Prend sa place s’il meurt</p>
   <p><b>Effet :</b> La partie est prolongée de 2 tours si elle devient Roi</p>
 </div>
 
-<div class="card" onclick="openRole('Saboteur')">
+<div class="card" onclick="openRole('saboteur')">
   <h3>Saboteur</h3>
   <p><b>Rôle :</b> Bloque le pouvoir d’un joueur</p>
   <p><b>Effet :</b> Peut envoyer une fausse information</p>
@@ -70,7 +70,7 @@
   <p><b>Effet :</b> Devient invisible aux rôles de vision</p>
 </div>
 
-<div class="card" onclick="openRole('Corrupteur')">
+<div class="card" onclick="openRole('corrupteur')">
   <h3>Corrupteur</h3>
   <p><b>Rôle :</b> Cherche le Comte</p>
   <p><b>Effet :</b> 2 essais maximum</p>
@@ -154,13 +154,6 @@
 </main>
 </div>
 
-<script src="script.js"></script>
-  <div id="popup" class="popup hidden">
-  <div class="popup-content">
-    <span class="close" onclick="closePopup()">✖</span>
-    <div id="popup-body"></div>
-  </div>
-</div>
 </body>
 </html>
 
