@@ -1,17 +1,97 @@
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background: radial-gradient(circle at top, #1a0000, #000);
-  color: #e5e5e5;
+margin:0;
+font-family: Georgia, serif;
+background: radial-gradient(circle at top, #200000, #000);
+color:#e5e5e5;
+overflow-x:hidden;
+}
+
+/* layout */
+.layout {
+display:flex;
+height:100vh;
+}
+
+/* sidebar */
+.sidebar {
+width:280px;
+background:#0a0000;
+border-right:2px solid #3b0000;
+padding:20px;
+}
+
+.logo {
+color:#ff2a2a;
+font-size:18px;
+margin-bottom:20px;
+font-weight:bold;
+}
+
+.sidebar input {
+width:100%;
+padding:10px;
+margin-bottom:15px;
+background:#120000;
+border:1px solid #3b0000;
+color:white;
+}
+
+.sidebar button {
+width:100%;
+padding:10px;
+margin-bottom:8px;
+background:transparent;
+border:1px solid #3b0000;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sidebar button:hover {
+background:#3b0000;
+}
+
+/* content */
+.content {
+flex:1;
+padding:30px;
+overflow-y:auto;
+}
+
+.page {
+display:none;
+animation:fade 0.3s ease;
+}
+
+.page.active {
+display:block;
+}
+
+@keyframes fade {
+from {opacity:0;}
+to {opacity:1;}
 }
 
 h1 {
-  color: #ff2a2a;
-  text-align: center;
-  margin-top: 40px;
+color:#ff2a2a;
 }
 
-p {
-  text-align: center;
-  font-size: 18px;
+/* cards */
+.card {
+background:rgba(20,0,0,0.6);
+border:1px solid #3b0000;
+padding:15px;
+margin:10px 0;
+transition:0.3s;
+}
+
+.card:hover {
+transform:scale(1.02);
+border-color:#ff2a2a;
+}
+
+/* mobile */
+@media(max-width:768px){
+.layout{flex-direction:column;}
+.sidebar{width:100%;}
 }
