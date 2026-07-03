@@ -13,42 +13,37 @@ height:100vh;
 }
 
 /* sidebar */
-.sidebar {
-width:280px;
-background:#0a0000;
-border-right:2px solid #3b0000;
-padding:20px;
-}
-
-.logo {
-color:#ff2a2a;
-font-size:18px;
-margin-bottom:20px;
-font-weight:bold;
-}
-
-.sidebar input {
-width:100%;
-padding:10px;
-margin-bottom:15px;
-background:#120000;
-border:1px solid #3b0000;
-color:white;
-}
-
 .sidebar button {
 width:100%;
 padding:10px;
 margin-bottom:8px;
-background:transparent;
+
+background:linear-gradient(145deg,#120000,#050000);
 border:1px solid #3b0000;
-color:white;
+
+color:#c9c9c9;
 cursor:pointer;
-transition:0.3s;
+
+transition:0.25s;
+
+text-align:left;
+font-weight:bold;
+letter-spacing:0.5px;
 }
 
+/* hover style RPG */
 .sidebar button:hover {
-background:#3b0000;
+background:linear-gradient(145deg,#2a0000,#120000);
+color:#ff3b3b;
+border-color:#ff3b3b;
+
+transform:translateX(5px);
+box-shadow:0 0 10px #ff000055;
+}
+
+/* bouton actif (option bonus) */
+.sidebar button:active {
+transform:scale(0.98);
 }
 
 /* content */
